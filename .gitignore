@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Production build
+build/
+
+# Misc
+.DS_Store
+Thumbs.db
+npm-debug.log*
+.env.local

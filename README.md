@@ -1,0 +1,26 @@
+# react-development
+
+Learning React from scratch, building up one small concept at a time. This
+follows on from my JavaScript work - now I want to build real user interfaces.
+
+This project was bootstrapped with
+[Create React App](https://github.com/facebook/create-react-app).
+
+## Goal
+
+Understand React step by step: components, props, state, lifecycle, forms and
+small apps.
+
+## How to run
+
+```
+npm install
+npm start
+```
+
+Then open http://localhost:3000.
+
+## Progress
+
+- Project scaffolded with create-react-app; first `App` component renders a
+  greeting.
