@@ -24,3 +24,4 @@ Then open http://localhost:3000.
 
 - Project scaffolded with create-react-app; first `App` component renders a
   greeting.
+- `src/components/JsxBasics.js` - JSX syntax: expressions in `{ }`, className, inline styles.
