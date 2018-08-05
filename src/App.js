@@ -3,11 +3,13 @@
 
 import React from "react";
 import JsxBasics from "./components/JsxBasics";
+import Greeting from "./components/Greeting";
 
 function App() {
   return (
     <div>
       <h1>Learning React</h1>
+      <Greeting />
       <JsxBasics />
     </div>
   );
