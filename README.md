@@ -27,3 +27,4 @@ Then open http://localhost:3000.
 - `src/components/JsxBasics.js` - JSX syntax: expressions in `{ }`, className, inline styles.
 - `src/components/Greeting.js` - my first reusable function component.
 - `src/components/UserCard.js` - passing data into a component with props.
+- `src/components/Card.js` - composition with `props.children` (a generic wrapper).
