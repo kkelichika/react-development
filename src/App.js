@@ -4,12 +4,11 @@
 import React from "react";
 import Greeting from "./components/Greeting";
 import UserList from "./components/UserList";
+import LoginStatus from "./components/LoginStatus";
 
-// some sample data with stable ids (good for keys)
 const users = [
   { id: 1, name: "Ada", role: "admin", age: 36 },
   { id: 2, name: "Bob", role: "editor", age: 41 },
-  { id: 3, name: "Cara", role: "viewer", age: 29 },
 ];
 
 function App() {
@@ -17,6 +16,11 @@ function App() {
     <div>
       <h1>Learning React</h1>
       <Greeting />
+
+      {/* try changing these props to see the conditional rendering react */}
+      <LoginStatus user={{ name: "Ada", role: "admin" }} messageCount={3} />
+      <LoginStatus user={null} messageCount={0} />
+
       <UserList users={users} />
     </div>
   );
