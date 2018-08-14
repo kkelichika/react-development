@@ -30,3 +30,4 @@ Then open http://localhost:3000.
 - `src/components/Card.js` - composition with `props.children` (a generic wrapper).
 - `src/components/UserList.js` - rendering a list with map() and the key prop.
 - `src/components/LoginStatus.js` - conditional rendering (ternary, &&, returning null).
+- `src/components/Clock.js` - a class component with state (`this.state` in the constructor).
