@@ -31,3 +31,4 @@ Then open http://localhost:3000.
 - `src/components/UserList.js` - rendering a list with map() and the key prop.
 - `src/components/LoginStatus.js` - conditional rendering (ternary, &&, returning null).
 - `src/components/Clock.js` - a class component with state (`this.state` in the constructor).
+- `src/components/ClickBox.js` - handling events (onClick/onMouseEnter) and binding `this`.
