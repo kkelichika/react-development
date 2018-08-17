@@ -32,3 +32,4 @@ Then open http://localhost:3000.
 - `src/components/LoginStatus.js` - conditional rendering (ternary, &&, returning null).
 - `src/components/Clock.js` - a class component with state (`this.state` in the constructor).
 - `src/components/ClickBox.js` - handling events (onClick/onMouseEnter) and binding `this`.
+- `src/components/Counter.js` - updating state with setState (and the functional form).
