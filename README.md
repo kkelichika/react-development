@@ -35,3 +35,4 @@ Then open http://localhost:3000.
 - `src/components/Counter.js` - updating state with setState (and the functional form).
 - `src/components/SignupForm.js` - controlled form inputs (one handler for many fields).
 - `src/components/Temperature.js` - lifting state up so two inputs stay in sync.
+- `src/components/Badge.js` + `Badge.css` - styling with imported CSS, className props and inline styles.
