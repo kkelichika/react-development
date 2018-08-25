@@ -36,3 +36,4 @@ Then open http://localhost:3000.
 - `src/components/SignupForm.js` - controlled form inputs (one handler for many fields).
 - `src/components/Temperature.js` - lifting state up so two inputs stay in sync.
 - `src/components/Badge.js` + `Badge.css` - styling with imported CSS, className props and inline styles.
+- `src/apps/StepCounter.js` - a small counter app combining state, events, a controlled input and a child component.
