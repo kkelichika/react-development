@@ -3,14 +3,14 @@
 
 import React from "react";
 import Greeting from "./components/Greeting";
-import StepCounter from "./apps/StepCounter";
+import TodoApp from "./apps/todo/TodoApp";
 
 function App() {
   return (
     <div>
       <h1>Learning React</h1>
       <Greeting />
-      <StepCounter />
+      <TodoApp />
     </div>
   );
 }
