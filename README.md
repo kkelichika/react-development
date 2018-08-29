@@ -20,6 +20,17 @@ npm start
 
 Then open http://localhost:3000.
 
+## What I have learned so far (August)
+
+- Components (function and class) and JSX.
+- Passing data with props, and composition with `props.children`.
+- Rendering lists with map() and keys, and conditional rendering.
+- State in class components, and updating it correctly with setState.
+- Handling events and the `this`-binding gotchas.
+- Controlled form inputs, and lifting state up to share data.
+- Styling with CSS files, className props and inline styles.
+- Building small apps (a counter and a to-do app).
+
 ## Progress
 
 - Project scaffolded with create-react-app; first `App` component renders a
