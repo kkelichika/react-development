@@ -49,3 +49,4 @@ Then open http://localhost:3000.
 - `src/components/Badge.js` + `Badge.css` - styling with imported CSS, className props and inline styles.
 - `src/apps/StepCounter.js` - a small counter app combining state, events, a controlled input and a child component.
 - `src/apps/todo/` - a To-Do app: state, controlled input, immutable updates, lists/keys, filtering.
+- `src/components/TickingClock.js` - lifecycle: starting a timer in componentDidMount.
