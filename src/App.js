@@ -3,14 +3,14 @@
 
 import React from "react";
 import Greeting from "./components/Greeting";
-import MountToggle from "./components/MountToggle";
+import DocumentTitle from "./components/DocumentTitle";
 
 function App() {
   return (
     <div>
       <h1>Learning React</h1>
       <Greeting />
-      <MountToggle />
+      <DocumentTitle />
     </div>
   );
 }
