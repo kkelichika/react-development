@@ -52,3 +52,4 @@ Then open http://localhost:3000.
 - `src/components/TickingClock.js` - lifecycle: starting a timer in componentDidMount.
 - `src/components/MountToggle.js` - componentWillUnmount cleanup (mount/unmount a child).
 - `src/components/DocumentTitle.js` - componentDidUpdate reacting to a changed value (no infinite loops).
+- `src/api/mockApi.js` + `src/components/UserListFetch.js` - fetching data in componentDidMount.
