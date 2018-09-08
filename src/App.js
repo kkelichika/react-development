@@ -3,14 +3,14 @@
 
 import React from "react";
 import Greeting from "./components/Greeting";
-import UserListFetch from "./components/UserListFetch";
+import UsersWithStatus from "./components/UsersWithStatus";
 
 function App() {
   return (
     <div>
       <h1>Learning React</h1>
       <Greeting />
-      <UserListFetch />
+      <UsersWithStatus />
     </div>
   );
 }
