@@ -3,14 +3,14 @@
 
 import React from "react";
 import Greeting from "./components/Greeting";
-import UsersWithStatus from "./components/UsersWithStatus";
+import UserPostsExplorer from "./components/UserPosts";
 
 function App() {
   return (
     <div>
       <h1>Learning React</h1>
       <Greeting />
-      <UsersWithStatus />
+      <UserPostsExplorer />
     </div>
   );
 }
