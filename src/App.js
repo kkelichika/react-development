@@ -3,14 +3,14 @@
 
 import React from "react";
 import Greeting from "./components/Greeting";
-import UserPostsExplorer from "./components/UserPosts";
+import OrderForm from "./components/OrderForm";
 
 function App() {
   return (
     <div>
       <h1>Learning React</h1>
       <Greeting />
-      <UserPostsExplorer />
+      <OrderForm />
     </div>
   );
 }

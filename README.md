@@ -55,3 +55,4 @@ Then open http://localhost:3000.
 - `src/api/mockApi.js` + `src/components/UserListFetch.js` - fetching data in componentDidMount.
 - `src/components/UsersWithStatus.js` - tracking loading, error and success states.
 - `src/components/UserPosts.js` - re-fetching when a prop changes (master/detail).
+- `src/components/OrderForm.js` - controlled select, radio, textarea and number inputs.
