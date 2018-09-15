@@ -57,3 +57,4 @@ Then open http://localhost:3000.
 - `src/components/UserPosts.js` - re-fetching when a prop changes (master/detail).
 - `src/components/OrderForm.js` - controlled select, radio, textarea and number inputs.
 - `src/components/ValidatedForm.js` - form validation with touched fields and error messages.
+- `src/components/Cart.js` - child-to-parent communication via callback props.

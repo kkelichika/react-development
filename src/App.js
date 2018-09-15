@@ -3,14 +3,14 @@
 
 import React from "react";
 import Greeting from "./components/Greeting";
-import ValidatedForm from "./components/ValidatedForm";
+import Cart from "./components/Cart";
 
 function App() {
   return (
     <div>
       <h1>Learning React</h1>
       <Greeting />
-      <ValidatedForm />
+      <Cart />
     </div>
   );
 }
