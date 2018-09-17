@@ -3,14 +3,18 @@
 
 import React from "react";
 import Greeting from "./components/Greeting";
-import Cart from "./components/Cart";
+import Button from "./components/Button";
 
 function App() {
   return (
     <div>
       <h1>Learning React</h1>
       <Greeting />
-      <Cart />
+
+      {/* type defaults to "primary"; label is required */}
+      <Button label="Save" type="primary" onClick={() => alert("saved")} />
+      <Button label="Cancel" type="secondary" />
+      <Button label="Delete" type="danger" disabled />
     </div>
   );
 }

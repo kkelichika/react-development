@@ -58,3 +58,4 @@ Then open http://localhost:3000.
 - `src/components/OrderForm.js` - controlled select, radio, textarea and number inputs.
 - `src/components/ValidatedForm.js` - form validation with touched fields and error messages.
 - `src/components/Cart.js` - child-to-parent communication via callback props.
+- `src/components/Button.js` - defaultProps and PropTypes for safer, self-documenting props.
