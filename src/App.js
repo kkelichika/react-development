@@ -3,14 +3,14 @@
 
 import React from "react";
 import Greeting from "./components/Greeting";
-import Fragments from "./components/Fragments";
+import FocusInput from "./components/FocusInput";
 
 function App() {
   return (
     <div>
       <h1>Learning React</h1>
       <Greeting />
-      <Fragments />
+      <FocusInput />
     </div>
   );
 }

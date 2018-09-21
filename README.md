@@ -60,3 +60,4 @@ Then open http://localhost:3000.
 - `src/components/Cart.js` - child-to-parent communication via callback props.
 - `src/components/Button.js` - defaultProps and PropTypes for safer, self-documenting props.
 - `src/components/Fragments.js` - grouping elements without extra DOM nodes (React.Fragment, `<>`).
+- `src/components/FocusInput.js` - refs with React.createRef() to focus a DOM input.
