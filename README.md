@@ -61,3 +61,4 @@ Then open http://localhost:3000.
 - `src/components/Button.js` - defaultProps and PropTypes for safer, self-documenting props.
 - `src/components/Fragments.js` - grouping elements without extra DOM nodes (React.Fragment, `<>`).
 - `src/components/FocusInput.js` - refs with React.createRef() to focus a DOM input.
+- `src/hoc/withLoading.js` + `src/components/PeopleList.js` - a higher-order component for reusing logic.
