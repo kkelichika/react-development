@@ -3,14 +3,14 @@
 
 import React from "react";
 import Greeting from "./components/Greeting";
-import UserSearch from "./apps/UserSearch";
+import Dashboard from "./apps/dashboard/Dashboard";
 
 function App() {
   return (
     <div>
       <h1>Learning React</h1>
       <Greeting />
-      <UserSearch />
+      <Dashboard />
     </div>
   );
 }

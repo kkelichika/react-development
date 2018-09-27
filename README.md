@@ -63,3 +63,4 @@ Then open http://localhost:3000.
 - `src/components/FocusInput.js` - refs with React.createRef() to focus a DOM input.
 - `src/hoc/withLoading.js` + `src/components/PeopleList.js` - a higher-order component for reusing logic.
 - `src/apps/UserSearch.js` - a search/filter app: fetch on mount + controlled search + derived results.
+- `src/apps/dashboard/` - a data dashboard: parallel loading, stats, user selection, re-fetch on change.
