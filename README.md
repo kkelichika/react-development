@@ -20,7 +20,9 @@ npm start
 
 Then open http://localhost:3000.
 
-## What I have learned so far (August)
+## What I have learned so far
+
+### August - the basics
 
 - Components (function and class) and JSX.
 - Passing data with props, and composition with `props.children`.
@@ -30,6 +32,16 @@ Then open http://localhost:3000.
 - Controlled form inputs, and lifting state up to share data.
 - Styling with CSS files, className props and inline styles.
 - Building small apps (a counter and a to-do app).
+
+### September - lifecycle, data and patterns
+
+- Lifecycle methods: componentDidMount, componentDidUpdate, componentWillUnmount.
+- Fetching data on mount, with loading and error states, and re-fetching on prop change.
+- More forms: select/radio/textarea, and validation with touched fields.
+- Child-to-parent communication with callback props.
+- defaultProps and PropTypes; Fragments; refs with createRef.
+- Reusing logic with a higher-order component.
+- Building data-driven apps (a search/filter and a dashboard).
 
 ## Progress
 
