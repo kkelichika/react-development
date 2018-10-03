@@ -1,35 +1,21 @@
-// react-router: showing different "pages" without reloading the browser.
-//
-// A single-page app fakes multiple pages by swapping components based on
-// the URL. react-router-dom (v4 in 2018) does this:
-//   - <BrowserRouter> wraps the whole app and watches the URL
-//   - <Link to="..."> is a navigation link (no full page reload)
-//   - <Route path="..." component={...}> renders a component when the URL
-//     matches that path
-//
-// "exact" matters: without it, path="/" would match EVERY url (since all
-// urls start with "/").
+// react-router with several pages and a NavLink-based navbar.
 
 import React from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
+import Navbar from "./Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function RouterApp() {
   return (
     <BrowserRouter>
       <div className="router-app">
-        {/* navigation - clicking these changes the URL, no reload */}
-        <nav>
-          <Link to="/">Home</Link> | <Link to="/about">About</Link>
-        </nav>
-
+        <Navbar />
         <hr />
-
-        {/* these render based on the current URL.
-            exact so "/" does not also match "/about" */}
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
       </div>
     </BrowserRouter>
   );

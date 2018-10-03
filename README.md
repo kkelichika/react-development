@@ -77,3 +77,4 @@ Then open http://localhost:3000.
 - `src/apps/UserSearch.js` - a search/filter app: fetch on mount + controlled search + derived results.
 - `src/apps/dashboard/` - a data dashboard: parallel loading, stats, user selection, re-fetch on change.
 - `src/routing/RouterApp.js` - react-router basics: BrowserRouter, Route and Link.
+- `src/routing/Navbar.js` - a navbar with NavLink that highlights the active route.
