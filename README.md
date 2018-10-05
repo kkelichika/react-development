@@ -78,3 +78,4 @@ Then open http://localhost:3000.
 - `src/apps/dashboard/` - a data dashboard: parallel loading, stats, user selection, re-fetch on change.
 - `src/routing/RouterApp.js` - react-router basics: BrowserRouter, Route and Link.
 - `src/routing/Navbar.js` - a navbar with NavLink that highlights the active route.
+- `src/routing/pages/Users.js` + `UserDetail.js` - route params (`/users/:id` via match.params).

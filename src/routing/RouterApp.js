@@ -1,21 +1,25 @@
-// react-router with several pages and a NavLink-based navbar.
+// react-router with route parameters for detail pages.
 
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
-import Navbar from "./Navbar";
+import { BrowserRouter, Route, NavLink } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Users from "./pages/Users";
+import UserDetail from "./pages/UserDetail";
 
 function RouterApp() {
   return (
     <BrowserRouter>
       <div className="router-app">
-        <Navbar />
+        <nav style={{ display: "flex", gap: 12 }}>
+          <NavLink exact to="/">Home</NavLink>
+          <NavLink to="/users">Users</NavLink>
+        </nav>
         <hr />
+
         <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/users" component={Users} />
+        {/* :id is a route parameter, available as match.params.id */}
+        <Route path="/users/:id" component={UserDetail} />
       </div>
     </BrowserRouter>
   );
