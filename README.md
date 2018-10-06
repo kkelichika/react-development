@@ -79,3 +79,4 @@ Then open http://localhost:3000.
 - `src/routing/RouterApp.js` - react-router basics: BrowserRouter, Route and Link.
 - `src/routing/Navbar.js` - a navbar with NavLink that highlights the active route.
 - `src/routing/pages/Users.js` + `UserDetail.js` - route params (`/users/:id` via match.params).
+- `src/routing/pages/NotFound.js` - Switch and a catch-all 404 route.
