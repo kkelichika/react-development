@@ -81,3 +81,4 @@ Then open http://localhost:3000.
 - `src/routing/pages/Users.js` + `UserDetail.js` - route params (`/users/:id` via match.params).
 - `src/routing/pages/NotFound.js` - Switch and a catch-all 404 route.
 - `src/routing/pages/Login.js` - programmatic navigation (history.push) and `<Redirect>`.
+- `src/context/ContextDemo.js` - Context API: Provider/Consumer to avoid prop drilling.
