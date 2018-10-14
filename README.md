@@ -83,3 +83,4 @@ Then open http://localhost:3000.
 - `src/routing/pages/Login.js` - programmatic navigation (history.push) and `<Redirect>`.
 - `src/context/ContextDemo.js` - Context API: Provider/Consumer to avoid prop drilling.
 - `src/context/ContextTypeDemo.js` - reading context in a class via static contextType.
+- `src/context/ThemedApp.js` - a practical theme context with a value + updater (toggle the theme anywhere).
