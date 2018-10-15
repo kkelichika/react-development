@@ -84,3 +84,4 @@ Then open http://localhost:3000.
 - `src/context/ContextDemo.js` - Context API: Provider/Consumer to avoid prop drilling.
 - `src/context/ContextTypeDemo.js` - reading context in a class via static contextType.
 - `src/context/ThemedApp.js` - a practical theme context with a value + updater (toggle the theme anywhere).
+- `src/redux/counter/` - Redux core: a reducer and a plain store (getState/dispatch/subscribe).
