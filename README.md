@@ -86,3 +86,4 @@ Then open http://localhost:3000.
 - `src/context/ThemedApp.js` - a practical theme context with a value + updater (toggle the theme anywhere).
 - `src/redux/counter/` - Redux core: a reducer and a plain store (getState/dispatch/subscribe).
 - `src/redux/counter/CounterConnected.js` - react-redux: Provider + connect(mapState, mapDispatch).
+- `src/redux/counter/actions.js` - action type constants and action creators.

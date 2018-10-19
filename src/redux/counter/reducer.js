@@ -1,28 +1,23 @@
-// A Redux reducer.
+// A Redux reducer, now using the action type constants.
 //
-// Redux keeps ALL app state in one object (the "store"). You never change
-// it directly. Instead you "dispatch" an ACTION (a plain object describing
-// what happened), and a REDUCER computes the NEW state from the old state
-// and the action.
-//
-// A reducer is a PURE function: (state, action) => newState. It must NOT
-// mutate the old state - it returns a fresh object (spread, like my JS
-// immutability lessons).
+// Using the constants (instead of raw strings) means a typo is a missing
+// import / reference error, caught immediately, rather than a silent no-op.
+
+import { INCREMENT, DECREMENT, ADD, RESET } from "./actions";
 
 const initialState = { count: 0 };
 
 function counterReducer(state = initialState, action) {
   switch (action.type) {
-    case "INCREMENT":
+    case INCREMENT:
       return { ...state, count: state.count + 1 };
-    case "DECREMENT":
+    case DECREMENT:
       return { ...state, count: state.count - 1 };
-    case "ADD":
+    case ADD:
       return { ...state, count: state.count + action.amount };
-    case "RESET":
+    case RESET:
       return { ...state, count: 0 };
     default:
-      // unknown action: return the state unchanged
       return state;
   }
 }
