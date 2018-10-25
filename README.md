@@ -89,3 +89,4 @@ Then open http://localhost:3000.
 - `src/redux/counter/actions.js` - action type constants and action creators.
 - `src/redux/store/rootReducer.js` - combineReducers: splitting state into todos and filter slices.
 - `src/apps/site/SiteApp.js` - a multi-page site combining react-router with the theme context.
+- `src/apps/reduxTodo/ReduxTodoApp.js` - a to-do app with state in Redux (connected add/list/filter).

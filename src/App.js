@@ -1,15 +1,19 @@
-// The root component. It pulls in the small example components I build as
-// I learn, so I can see them on the page.
+// The root component. Wraps the Redux to-do app in a Provider so its
+// connected components can reach the combined store.
 
 import React from "react";
-import SiteApp from "./apps/site/SiteApp";
+import { Provider } from "react-redux";
+import { store } from "./redux/store/rootReducer";
+import ReduxTodoApp from "./apps/reduxTodo/ReduxTodoApp";
 
 function App() {
   return (
-    <div>
-      <h1>Learning React</h1>
-      <SiteApp />
-    </div>
+    <Provider store={store}>
+      <div>
+        <h1>Learning React</h1>
+        <ReduxTodoApp />
+      </div>
+    </Provider>
   );
 }
 
