@@ -43,6 +43,26 @@ Then open http://localhost:3000.
 - Reusing logic with a higher-order component.
 - Building data-driven apps (a search/filter and a dashboard).
 
+### October - routing, context and Redux
+
+- react-router: routes, links, NavLink, route params, Switch, 404, and redirects.
+- The Context API: Provider/Consumer, contextType, and a themed app.
+- Redux: store, reducers, actions and action creators, combineReducers.
+- react-redux: Provider and connect (mapStateToProps / mapDispatchToProps).
+- Bigger apps: a routed+themed site, a Redux to-do, and a Notes capstone
+  that combines Router + Context + Redux.
+
+## Looking back
+
+Three months in, I can build a real multi-page React app: components and
+state, data fetching with proper loading/error handling, routing, shared
+state via Context, and a global store with Redux. Everything is written with
+class components and lifecycle methods - the standard approach in 2018.
+(People are starting to talk about a "hooks" proposal that would let function
+components hold state; I am curious to try it when it ships.)
+
+Next things I want to explore: testing components, and those new hooks.
+
 ## Progress
 
 - Project scaffolded with create-react-app; first `App` component renders a
